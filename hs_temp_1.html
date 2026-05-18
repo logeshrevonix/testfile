@@ -1,0 +1,168 @@
+<style>
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cs-hero-section {
+    width: 100%;
+    min-height: 100vh;
+    background: #ffffff;
+}
+</style>
+
+<style>
+.temp1 {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+}
+.temp1 .cs-con-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 2rem;
+}
+.temp1 .cs-con-left h1 {
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    line-height: 1.1;
+    color: #111;
+}
+.temp1 .cs-con-left p {
+    font-size: clamp(0.8rem, 2vw, 1.5rem);
+    color: #555;
+    max-width: 500px;
+}
+.temp1 .cs-btn {
+    width: fit-content;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 12px;
+    background: #111;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.temp1 .cs-btn:hover {
+    transform: translateY(-3px);
+}
+.temp1 .cs-con-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    position: relative;
+    overflow: hidden; 
+}
+.temp1 .cs-con-right .cs-blanka {
+    background-color: #132964;
+    width: 90%;
+}
+.temp1 .cs-con-right img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;                 
+    left: 0%;
+    transform: translate(-10%, -50%); 
+}
+@media (max-width: 480px) {
+    .temp1 {
+        grid-template-columns: 1fr;
+        min-height: 80vh;
+    }
+    .temp1 .cs-con-left {
+        order: 2;
+        align-items: center;
+        text-align: center;
+        padding: 1.5rem 1rem;
+        gap: 12px;
+    }
+    .temp1 .cs-con-left p {
+        max-width: 100%;
+    }
+    .temp1 .cs-con-right {
+        order: 1;
+        min-height: 200px;
+        overflow: hidden;
+    }
+    .temp1 .cs-con-right .cs-blanka {
+        width: 100%;
+    }
+    .temp1 .cs-con-right img {
+        max-width: 88%;
+        height: 180px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .temp1 {
+        grid-template-columns: 1fr 1fr;
+        min-height: 60vh;
+    }
+    .temp1 .cs-con-left {
+        padding: 2rem 1.5rem;
+        gap: 14px;
+    }
+    .temp1 .cs-con-left p {
+        max-width: 90%;
+    }
+    .temp1 .cs-con-right {
+        min-height: 280px;
+        overflow: hidden;        
+    }
+    .temp1 .cs-con-right img {
+        max-width: 95%;
+        height: 230px;
+    }
+}
+@media (min-width: 768px) and (max-width: 940px) {
+    .temp1 {
+        grid-template-columns: 1fr 1fr;
+        min-height: 85vh;
+    }
+    .temp1 .cs-con-left {
+        padding: 2rem;
+        gap: 16px;
+    }
+    .temp1 .cs-con-left p {
+        max-width: 80%;
+    }
+    .temp1 .cs-con-right {
+        min-height: 320px;
+        overflow: hidden;
+    }
+    .temp1 .cs-con-right img {
+        max-width: 100%;
+        height: 270px;
+    }
+}
+</style>
+<section class="cs-hero-section" aria-label="Hero Section">
+    <div class="cs-hs-temp temp1" cs-lable="hs_temp_1">
+        <div class="cs-con-left">
+            <h1>
+                Build Creative <br>
+                College Websites
+            </h1>
+            <p>
+                Modern responsive UI design for your college
+                project with clean layout and smooth user experience.
+            </p>
+            <button class="cs-btn">Explore More</button>
+        </div>
+        <div class="cs-con-right">
+            <div class="cs-blanka"></div>
+            <img src="../assets/image/image3.jpg" alt="Hero Image">
+        </div>
+    </div>
+</section>    
+
