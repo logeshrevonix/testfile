@@ -1,0 +1,167 @@
+{
+  "status": 1,
+  "message": "Menu data loaded",
+  "data": [
+    {
+      "id": "1",
+      "name": "Home",
+      "slug": "#",
+      "link": "index.php",
+      "p_id": "#",
+      "icon": "fa fa-home"
+    },
+    {
+      "id": "2",
+      "name": "Academics",
+      "slug": "#",
+      "link": "#",
+      "p_id": "#",
+      "icon": "fa fa-book"
+    },
+    {
+      "id": "3",
+      "name": "Campus Life",
+      "slug": "#",
+      "link": "#",
+      "p_id": "#",
+      "icon": "fa fa-university"
+    },
+    {
+      "id": "4",
+      "name": "Admissions",
+      "slug": "#",
+      "link": "#",
+      "p_id": "#",
+      "icon": "fa fa-user-plus"
+    },
+    {
+      "id": "5",
+      "name": "Contact Us",
+      "slug": "#",
+      "link": "#",
+      "p_id": "#",
+      "icon": "fa fa-envelope"
+    },
+    {
+      "id": "7",
+      "name": "Departments",
+      "slug": "#",
+      "link": "#",
+      "p_id": "2",
+      "icon": "fa fa-building"
+    },
+    {
+      "id": "8",
+      "name": "Computer Science",
+      "slug": "#",
+      "link": "/departments/computer_science.php",
+      "p_id": "7",
+      "icon": "fa fa-laptop-code"
+    },
+    {
+      "id": "9",
+      "name": "Mechanical",
+      "slug": "#",
+      "link": "/departments/mechanical.php",
+      "p_id": "7",
+      "icon": "fa fa-cogs"
+    },
+    {
+      "id": "10",
+      "name": "Civil",
+      "slug": "#",
+      "link": "/departments/civil.php",
+      "p_id": "7",
+      "icon": "fa fa-building"
+    },
+    {
+      "id": "17",
+      "name": "About Us",
+      "slug": "#",
+      "link": "academics/about_us.php",
+      "p_id": "2",
+      "icon": "fa fa-id-card"
+    },
+    {
+      "id": "18",
+      "name": "Admissions Process",
+      "slug": "#",
+      "link": "admissions/process.php",
+      "p_id": "4",
+      "icon": "fa fa-file-alt"
+    },
+    {
+      "id": "19",
+      "name": "Contact Information",
+      "slug": "#",
+      "link": "contact/contact_info.php",
+      "p_id": "5",
+      "icon": "fa fa-phone"
+    },
+    {
+      "id": "20",
+      "name": "Campus Facilities",
+      "slug": "#",
+      "link": "campus/facilities.php",
+      "p_id": "3",
+      "icon": "fa fa-building"
+    },
+    {
+      "id": "21",
+      "name": "Student Organizations",
+      "slug": "#",
+      "link": "campus/organizations.php",
+      "p_id": "3",
+      "icon": "fa fa-users"
+    },
+    {
+      "id": "22",
+      "name": "Events Calendar",
+      "slug": "#",
+      "link": "campus/events.php",
+      "p_id": "3",
+      "icon": "fa fa-calendar-alt"
+    },
+    {
+      "id": "23",
+      "name": "Research Opportunities",
+      "slug": "#",
+      "link": "academics/research.php",
+      "p_id": "2",
+      "icon": "fa fa-flask"
+    },
+    {
+      "id": "24",
+      "name": "Program Offerings",
+      "slug": "#",
+      "link": "academics/program_offerings.php",
+      "p_id": "2",
+      "icon": "fa fa-graduation-cap"
+    },
+    {
+      "id": "25",
+      "name": "Contact Phone",
+      "slug": "#",
+      "link": "academics/contact_phone.php",
+      "p_id": "26",
+      "icon": "fa fa-phone"
+    },
+    {
+      "id": "26",
+      "name": "Contact Way",
+      "slug": "#",
+      "link": "#",
+      "p_id": "5",
+      "icon": "fa fa-envelope"
+    },
+    {
+      "id": "27",
+      "name": "Contact Email",
+      "slug": "#",
+      "link": "academics/contact_email.php",
+      "p_id": "26",
+      "icon": "fa fa-envelope"
+    }
+  ],
+  "count": 18
+}
